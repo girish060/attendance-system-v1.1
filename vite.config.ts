@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/attendance-system-v1.1/',
+  base: '/college-attendance-system/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
